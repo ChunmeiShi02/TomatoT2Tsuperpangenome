@@ -1,0 +1,1 @@
+tgsgapcloser --thread 100 --reads ${sname}.ont.fasta --tgstype ont --min_nread 5 --min_match 2000 --minmap_arg '-x asm20' --g_check --scaff ${sname}.p_ctg.hifiont.FINAL.fasta --output ${sname}.ont.gap.v1 --racon /miniconda3/envs/gap/bin/racon >pipe.log2 2>pipe.err2
